@@ -1,6 +1,6 @@
-# HashChat
+# Hash-Chat
 
-HashChat is a decentralized chat application (DApp) built on the Ethereum blockchain. It allows users to securely communicate with each other using blockchain technology, ensuring privacy, transparency, and immutability.
+Hash-Chat is a decentralized chat application (DApp) built on the Ethereum blockchain. It allows users to securely communicate with each other using blockchain technology, ensuring privacy, transparency, and immutability.
 
 ![Screenshot 2025-04-14 022421](https://github.com/user-attachments/assets/ee70fb23-1bff-4cd0-98b7-99198e730492)
 
@@ -9,10 +9,10 @@ HashChat is a decentralized chat application (DApp) built on the Ethereum blockc
 
 ---
 
-## 🚀 Getting Started with HashChat
+## 🚀 Getting Started with Hash-Chat
 
 Visit the application at:  
-👉 [https://hashchatbymechanoids.netlify.app/](https://hashchatbymechanoids.netlify.app/)
+👉 [https://Hash-Chatbymechanoids.netlify.app/](https://Hash-Chatbymechanoids.netlify.app/)
 ---
 
 
@@ -28,7 +28,7 @@ Before you begin, ensure you have the following:
 
 ## 📚 Detailed Setup Guide
 
-Follow these steps to get set up with HashChat:
+Follow these steps to get set up with Hash-Chat:
 
 ### 1. Install MetaMask 🦊
 
@@ -67,13 +67,13 @@ Follow these steps to get set up with HashChat:
 
 ---
 
-## 💻 Using HashChat
+## 💻 Using Hash-Chat
 
 Once prerequisites and setup are complete:
 
 ### a. Connect Wallet
 
-1.  Navigate to the HashChat application: [https://hashchatbymechanoids.netlify.app/](https://hashchatbymechanoids.netlify.app/)
+1.  Navigate to the Hash-Chat application: [https://Hash-Chatbymechanoids.netlify.app/](https://Hash-Chatbymechanoids.netlify.app/)
 2.  Click the **"Connect Wallet"** button, typically located in the top right corner.
 3.  MetaMask will pop up asking for connection permission. Review the request and click **"Connect"**.
 
@@ -106,7 +106,7 @@ Once prerequisites and setup are complete:
     *   Check the Holesky network status on Etherscan; the network might be slow or congested.
     *   Ensure MetaMask is connected and set to the **Holesky Test Network**.
 *   **Connection Issues:**
-    *   Make sure MetaMask is unlocked and connected to the site. Try disconnecting and reconnecting via the HashChat interface.
+    *   Make sure MetaMask is unlocked and connected to the site. Try disconnecting and reconnecting via the Hash-Chat interface.
     *   Confirm MetaMask is set to the **Holesky Test Network**.
 *   **Interface Issues (Broken Layout, Messages Not Updating):**
     *   Try a hard refresh (Ctrl+Shift+R or Cmd+Shift+R).
