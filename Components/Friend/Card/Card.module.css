@@ -1,0 +1,79 @@
+/* Card container wrapper */
+.Card {
+    background: rgba(255, 255, 255, 0.05); /* Translucent background */
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 1rem;
+  }
+  
+  .Card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Inner container for content */
+  .Card_box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(241, 130, 3, 0.25);
+    cursor: pointer;
+  }
+  
+  /* Remove border on the last card (if needed) */
+  .Card_box:last-child {
+    border-bottom: none;
+  }
+  
+  /* Left side for the avatar */
+  .Card_box_left {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgba(241, 130, 3, 0.8);
+  }
+  
+  /* Ensure image fills the circular container */
+  .Card_box_left_img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Right side for text content */
+  .Card_box_right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Middle section for name and short pubkey */
+  .Card_box_right_middle {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .Card_box_right_middle h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  .Card_box_right_middle small {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  /* Right end section for index or other info */
+  .Card_box_right_end small {
+    font-size: 1rem;
+    color: #fff;
+  }
+  

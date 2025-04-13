@@ -1,0 +1,165 @@
+.Friend{
+    width: 98%;
+    margin: var(--spacing-xs) auto;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.Friend_box{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    gap: var(--spacing-sm);
+    height: calc(100vh - 160px);
+}
+
+.Friend_box_left{
+    background: linear-gradient(to bottom, var(--nord1), var(--nord2));
+    padding: var(--spacing-xs);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    overflow-y: auto;
+    height: 99.5%;
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    border: 1px solid rgba(136, 192, 208, 0.05);
+    position: relative;
+}
+
+.Friend_box_left::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, var(--nord7), var(--nord8), var(--nord9));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.Friend_box_left:hover::before {
+    opacity: 1;
+}
+
+.Friend_box_left:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: rgba(136, 192, 208, 0.1);
+    transform: translateY(-2px);
+}
+
+/* Custom scrollbar for friend list */
+.Friend_box_left::-webkit-scrollbar {
+    width: 3px;
+}
+
+.Friend_box_left::-webkit-scrollbar-thumb {
+    background-color: var(--nord3);
+    border-radius: var(--radius-full);
+    transition: background-color 0.3s ease;
+}
+
+.Friend_box_left::-webkit-scrollbar-thumb:hover {
+    background-color: var(--nord9);
+}
+
+@media only screen and (max-width: 35em) {
+    .Friend{
+        width: 98%;
+        margin: var(--spacing-xs) auto;
+    }
+    .Friend_box{
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xs);
+        height: auto;
+    }
+    
+    .Friend_box_left {
+        max-height: 30vh;
+        margin-bottom: var(--spacing-xs);
+        padding: var(--spacing-xs);
+    }
+}
+
+.encryption_status {
+  background-color: rgba(33, 33, 33, 0.9);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 2rem;
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.encryption_status h3 {
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  color: #1da1f2;
+}
+
+.encryption_info {
+  margin-bottom: 1rem;
+}
+
+.encryption_info p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.encryption_actions {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.encryption_button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.encryption_button:hover {
+  background-color: #0c85d0;
+  transform: translateY(-2px);
+}
+
+.encryption_help {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0.75rem;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+.encryption_help p {
+  margin: 0.4rem 0;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 35em) {
+  .encryption_actions {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+.Friend_empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 90%;
+  margin: 1rem auto;
+  text-align: center;
+  color: #777;
+  padding: 2rem;
+  background-color: #f5f5f522;
+  border-radius: 10px;
+  border: 1px solid #e0e0e033;
+}
+
+.Friend_empty p {
+  font-size: 1rem;
+  font-weight: 500;
+}

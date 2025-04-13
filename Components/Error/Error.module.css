@@ -1,0 +1,49 @@
+.Error {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #383a40;           /* Dark background */
+    color: #F18303;               /* Orange text */
+    padding: 2rem;
+    border: 2px solid #F18303;     /* Orange border */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(241, 131, 3, 0.8);
+    z-index: 10000;
+    animation: fadeIn 0.5s ease-in-out;
+    text-align: center;
+    max-width: 80%;
+}
+
+.Error_box {
+    margin: 0 auto;
+}
+
+.ReloadButton {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #F18303;          /* Button background matching theme */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #292F3F;              /* Button text contrasting dark */
+    transition: background 0.3s ease;
+}
+
+.ReloadButton:hover {
+    background: #ff9703;         /* Slightly lighter on hover */
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media only screen and (max-width: 600px) {
+    .Error {
+        width: 90%;
+        padding: 1.5rem;
+    }
+}

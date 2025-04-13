@@ -1,0 +1,210 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #2E3440; /* Nord0 */
+    border-radius: 8px;
+    color: #D8DEE9; /* Nord4 */
+  }
+  
+  .missionSection,
+  .teamSection,
+  .techSection,
+  .contactSection {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #3B4252; /* Nord1 */
+    border-radius: 8px;
+  }
+  
+  .missionSection h2,
+  .teamSection h2,
+  .techSection h2,
+  .contactSection h2 {
+    color: #81A1C1; /* Nord9 */
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .missionSection p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #D8DEE9;
+  }
+  
+  .teamGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+  
+  .memberCard {
+    background-color: #434C5E; /* Nord2 */
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .memberCard:hover {
+    transform: translateY(-3px);
+  }
+  
+  .imageContainer {
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative;
+  }
+  
+  .imagePlaceholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3B4252; /* Nord1 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .initials {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #D8DEE9; /* Nord4 */
+  }
+  
+  .memberInfo {
+    padding: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .memberInfo h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #ECEFF4; /* Nord6 */
+  }
+  
+  .memberInfo h4 {
+    margin: 0.25rem 0 0.5rem;
+    color: #81A1C1; /* Nord9 */
+    font-size: 0.9rem;
+  }
+  
+  .memberInfo p {
+    flex-grow: 1;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+    color: #D8DEE9;
+  }
+  
+  .skillsContainer h5 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #D8DEE9;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .skillTag {
+    background-color: rgba(129, 161, 193, 0.15); /* Nord9 with transparency */
+    color: #81A1C1;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+  }
+  
+  .techGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .techItem {
+    background-color: #434C5E; /* Nord2 */
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .techItem:hover {
+    transform: translateY(-3px);
+  }
+  
+  .techItem h3 {
+    color: #81A1C1; /* Nord9 */
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .contactSection {
+    text-align: center;
+  }
+  
+  .contactSection p {
+    max-width: 600px;
+    margin: 0 auto 1rem;
+    font-size: 1rem;
+    color: #D8DEE9;
+  }
+  
+  .contactButton {
+    background-color: #81A1C1; /* Nord9 */
+    color: #2E3440; /* Nord0 */
+    border: none;
+    border-radius: 9999px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .contactButton:hover {
+    background-color: #88C0D0; /* Nord8 */
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .teamGrid {
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+    
+    .techGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 1rem;
+    }
+    
+    .missionSection,
+    .teamSection,
+    .techSection,
+    .contactSection {
+      padding: 1rem;
+    }
+    
+    .teamGrid,
+    .techGrid {
+      grid-template-columns: 1fr;
+    }
+    
+    .initials {
+      font-size: 1.75rem;
+    }
+  }
+  

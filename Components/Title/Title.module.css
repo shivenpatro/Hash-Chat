@@ -1,0 +1,57 @@
+.title {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .titleContainer {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .title h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #D8DEE9; /* Nord9 */
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1rem;
+  }
+  
+  .title h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #88C0D0, #5E81AC); /* Nord8 to Nord10 */
+    border-radius: 2px;
+  }
+  
+  .title p {
+    color: #D8DEE9; /* Nord4 */
+    font-size: 1.2rem;
+    line-height: 1.8;
+    opacity: 0.9;
+  }
+  
+  @media (max-width: 768px) {
+    .title h1 {
+      font-size: 2rem;
+    }
+    
+    .title p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title h1 {
+      font-size: 1.8rem;
+    }
+  }
+  
