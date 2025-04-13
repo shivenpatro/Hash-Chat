@@ -12,7 +12,7 @@ Hash-Chat is a decentralized chat application (DApp) built on the Ethereum block
 ## 🚀 Getting Started with Hash-Chat
 
 Visit the application at:  
-👉 [https://Hash-Chatbymechanoids.netlify.app/](https://Hash-Chatbymechanoids.netlify.app/)
+👉 [https://hashchatbymechanoids.netlify.app/](https://hashchatbymechanoids.netlify.app/)
 ---
 
 
@@ -73,7 +73,7 @@ Once prerequisites and setup are complete:
 
 ### a. Connect Wallet
 
-1.  Navigate to the Hash-Chat application: [https://Hash-Chatbymechanoids.netlify.app/](https://Hash-Chatbymechanoids.netlify.app/)
+1.  Navigate to the Hash-Chat application: [https://hashchatbymechanoids.netlify.app/](https://hashchatbymechanoids.netlify.app/)
 2.  Click the **"Connect Wallet"** button, typically located in the top right corner.
 3.  MetaMask will pop up asking for connection permission. Review the request and click **"Connect"**.
 
