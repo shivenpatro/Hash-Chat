@@ -146,7 +146,7 @@ const NavBar = () => {
             openBox={setOpenModel}
             title="Welcome to"
             head={<span><br/>Hash-Chat</span>}
-            info="HashChat is a decentralized, Ethereum-based chat platform that ensures true privacy. With end-to-end encryption and no central servers, your messages stay secure and untouchable. No data collection, no surveillance—just pure, private communication. Join the future of secure messaging today!"
+            info="Hash-Chat is a decentralized, Ethereum-based chat platform that ensures true privacy. With end-to-end encryption and no central servers, your messages stay secure and untouchable. No data collection, no surveillance—just pure, private communication. Join the future of secure messaging today!"
             smallInfo="Kindly Type Your Name..."
             image={images.hero}
             functionName={createAccount}
