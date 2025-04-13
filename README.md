@@ -1,132 +1,128 @@
-# Web3 Chat Application (DApp)
+# HashChat
 
-Building and Deploying a Web3 Chat Application (DApp) with Next.js, Hardhat, MetaMask, Solidity & Ethereum
+HashChat is a decentralized chat application (DApp) built on the Ethereum blockchain. It allows users to securely communicate with each other using blockchain technology, ensuring privacy, transparency, and immutability.
 
-Embark on a journey into the decentralized world of communication with our Web3 Chat Application DApp. This cutting-edge platform leverages Next.js for front-end development, Hardhat for smart contract deployment, MetaMask for wallet integration, Solidity for smart contract development, and Ethereum for blockchain functionality.
+![Screenshot 2025-04-14 022421](https://github.com/user-attachments/assets/ee70fb23-1bff-4cd0-98b7-99198e730492)
 
-Our Web3 Chat Application enables users to engage in secure and private conversations directly on the Ethereum blockchain. By utilizing decentralized technologies, we ensure that user data remains encrypted and inaccessible to third parties, offering a level of privacy and security unmatched by centralized messaging platforms
 
-## Project Overview
 
-![alt text](https://www.daulathussain.com/wp-content/uploads/2023/04/blockchain-chat-dapp.jpg)
 
-## Instruction
+---
 
-Kindly follow the following Instructions to run the project in your system and install the necessary requirements
+## 🚀 Getting Started with HashChat
 
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/blockchain-chat-dapp-project-source-code)
+Visit the application at:  
+👉 [https://mechhashchat.netlify.app/](https://mechhashchat.netlify.app/)
+---
 
-#### Setup Video
 
-- [Final Code Setup video](https://youtu.be/VI2DW5Ttupg?si=-ZyXK842Gionh1Xy)
+## 🔧 Prerequisites
 
-#### Full Project
+Before you begin, ensure you have the following:
 
-```
-  WATCH: Complete Project
-  URL: https://youtu.be/yle9MMqY7yY?si=-leWX95pl8rBjZy_
-```
+*   **A modern web browser** 🌐 (Chrome, Firefox, or Edge recommended)
+*   **MetaMask wallet extension** 🔒 installed and set up.
+*   **Holesky testnet ETH** 💰 for covering transaction gas fees on the test network.
 
-#### Setup & Demo
+---
 
-WATCH: Setup & Demo Of Project
-URL: https://www.theblockchaincoders.com/sourceCode/blockchain-chat-dapp-project-source-code
+## 📚 Detailed Setup Guide
 
-```
+Follow these steps to get set up with HashChat:
 
-#### Install Vs Code Editor
+### 1. Install MetaMask 🦊
 
-```
+*   Go to the official MetaMask website: [MetaMask Download](https://metamask.io/download/)
+*   Click **"Install MetaMask for Chrome"** (or select your browser).
+*   Once installed, create a **new wallet** or **import an existing one** using your seed phrase.
+*   **⚠️ IMPORTANT:** Store your seed phrase in a very secure location and **never** share it with anyone. 🔑
 
-GET: VsCode Editor
-URL: https://code.visualstudio.com/download
+### 2. Configure Holesky Testnet ⛓️
 
-```
+*   Open the MetaMask extension in your browser.
+*   Click the network dropdown menu at the top (it usually defaults to "Ethereum Mainnet").
+*   Select **"Add Network"**.
+*   Enter the following details for the Holesky Testnet:
+    ```plaintext
+    Network Name: Holesky Test Network
+    RPC URL: https://ethereum-holesky.publicnode.com
+    Chain ID: 17000
+    Currency Symbol: ETH
+    Block Explorer URL: https://holesky.etherscan.io
+    ```
+    ![image](https://github.com/user-attachments/assets/bdf51dff-f874-45ef-b4b0-3340a84cea23)
 
-#### NodeJs & NPM Version
+*   Click **"Save"**.
+*   Ensure **Holesky Testnet** is selected as your active network in MetaMask. 🔄
 
-```
+### 3. Get Holesky Test ETH (Faucet) 💧
 
-NodeJs: v18.17.1 (MUST)
-VIDEO: https://youtu.be/PIR0oBVowXU?si=_jVYKmd94tPjmuQR
-NPM: 8.19.2
-URL: https://nodejs.org/en/download
+*   You need test ETH to pay for transactions (like sending messages) on the Holesky network.
+*   Visit a Holesky Faucet website 
+     [Holesky Faucet](https://holesky-faucet.pk910.de)
+*   Copy your MetaMask wallet address 📋 (Click on your account name in MetaMask to copy).
+*   Paste your address into the faucet website's input field.
+*   Follow the faucet's instructions (e.g., "Mine & Request Tokens", "Send Me ETH").
+*   Wait for the transaction to process. The test ETH will appear in your MetaMask wallet shortly. ⏳
 
-```
+---
 
-#### Clone Starter File
+## 💻 Using HashChat
 
-```
+Once prerequisites and setup are complete:
 
-GET: Project Starter File Download
-URL: https://github.com/daulathussain/Airdrop-Crypto-Starter-File
+### a. Connect Wallet
 
-```
+1.  Navigate to the HashChat application: [https://mechhashchat.netlify.app/](https://mechhashchat.netlify.app/)
+2.  Click the **"Connect Wallet"** button, typically located in the top right corner.
+3.  MetaMask will pop up asking for connection permission. Review the request and click **"Connect"**.
 
-#### RUP URL : ankr.com
+### b. Set Up Profile (One-Time)
 
-```
+1.  After connecting, click "Connect Wallet" again.
+2.  Enter your desired **username**.
+3.  Click **"Submit"**.
+4.  MetaMask will prompt you to approve a transaction to save your profile on the blockchain. **Confirm** the transaction. (This requires a small amount of Holesky ETH for gas).
 
-GET: ankr.com
-URL: https://www.ankr.com/rpc/
+### c. Start Chatting
 
-```
+1.  To initiate a chat, navigate to the **"All Users"** tab or similar section listing registered users.
+2.  Find the user you want to chat with and click the **"Add Friend"** button below their name.
+3.  MetaMask will prompt you to approve a transaction to create the chat relationship on the blockchain. **Confirm** the transaction.
+4.  Once the transaction is confirmed, you can select the friend from your chat list and start sending messages. 💬
 
-All you need to follow the complete project and follow the instructions which are explained in the tutorial by Daulat
+### d. Message Security
 
-## Final Code Instruction
+1.  When you send your first message (or periodically), MetaMask may ask for permission to **encrypt/decrypt messages**. This uses your public key for secure end-to-end communication.
+2.  **Approve** the signature or encryption request. This does *not* send a transaction but allows the app to use your keys securely for messaging.
+3.  Messages are encrypted using public key cryptography, ensuring only you and the recipient can read them. 🔐
 
-If you download the final source code then you can follow the following instructions to run the Dapp successfully
+---
 
-#### Setup Video
+## 🛠️ Troubleshooting
 
-```
+*   **Messages Not Sending:**
+    *   Check your Holesky ETH balance in MetaMask. You might need more test ETH from a faucet.
+    *   Check the Holesky network status on Etherscan; the network might be slow or congested.
+    *   Ensure MetaMask is connected and set to the **Holesky Test Network**.
+*   **Connection Issues:**
+    *   Make sure MetaMask is unlocked and connected to the site. Try disconnecting and reconnecting via the HashChat interface.
+    *   Confirm MetaMask is set to the **Holesky Test Network**.
+*   **Interface Issues (Broken Layout, Messages Not Updating):**
+    *   Try a hard refresh (Ctrl+Shift+R or Cmd+Shift+R).
+    *   Clear your browser's cache and cookies for the site.
 
-WATCH: Setup & Demo Of Project
-URL: https://github.com/daulathussain/Airdrop-Crypto-Starter-File
+---
 
-```
+## 📝 Important Notes
 
-#### All Projects Final Source Code
+*   **Keep Test ETH:** Always maintain a small balance of Holesky ETH in your wallet to cover gas fees for sending messages and other interactions.
+*   **Blockchain Transactions:** Every message sent is recorded as a transaction on the Holesky blockchain.
+*   **Transaction Confirmation:** Wait for a transaction to be confirmed on the blockchain before sending the next message, especially during high network congestion.
+---
 
-```
+## 🔒 Privacy & Security
 
-Download the Final Source Code
-URL: https://www.theblockchaincoders.com/SourceCode
-
-```
-
-#### Test Faucets
-
-theblockchaincoders will provide you with some free test faucets which you can transfer to your wallet address for deploying the contract
-
-```
-
-Get: Free Test Faucets
-URL: https://www.theblockchaincoders.com/resource
-
-```
-
-#### RemixID
-
-We are using RemixID for deploying the contract and generation of the ABI in the project, but you can use any other tools like Hardhat, etc.
-
-```
-
-OPEN: RemixID
-URL: https://remix-project.org
-
-```
-
-## Important Links
-
-- [Get Pro Blockchain Developer Course](https://www.theblockchaincoders.com/pro-nft-marketplace)
-- [Support Creator](https://bit.ly/Support-Creator)
-- [All Projects Source Code](https://www.theblockchaincoders.com/SourceCode)
-
-## Authors
-
-- [@theblockchaincoders.com](https://www.theblockchaincoders.com/)
-- [@consultancy](https://www.theblockchaincoders.com/consultancy)
-- [@youtube](https://www.youtube.com/@daulathussain)
-```
+*   **Blockchain Storage:** Messages and user interactions are stored immutably and transparently on the Holesky blockchain ledger.
+*   **Encryption:** Communications are end-to-end encrypted using public key cryptography. Only the sender and the intended recipient (with their respective private keys) can decrypt and read the messages.
+*   **User Control:** Your private key, which is essential for signing transactions and decrypting messages, **never leaves your MetaMask wallet**. The application only requests signatures or decryption permissions when needed.
