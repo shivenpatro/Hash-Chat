@@ -1,4 +1,4 @@
-# Hash-Chat
+![Screenshot 2025-04-14 025543](https://github.com/user-attachments/assets/27802ca0-c9f6-4c6c-ae9f-ee3dc79a5202)# Hash-Chat
 
 Hash-Chat is a decentralized chat application (DApp) built on the Ethereum blockchain. It allows users to securely communicate with each other using blockchain technology, ensuring privacy, transparency, and immutability.
 
@@ -98,6 +98,10 @@ Once prerequisites and setup are complete:
 3.  Messages are encrypted using public key cryptography, ensuring only you and the recipient can read them. 🔐
 
 ---
+## Demo
+[![Watch the video](https://github.com/user-attachments/assets/c74f331b-e09b-4474-88b0-398d2c5def5a)
+](https://vimeo.com/1075385755/012529c7fe)
+
 
 ## 🛠️ Troubleshooting
 
