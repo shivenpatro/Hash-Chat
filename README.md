@@ -101,8 +101,7 @@ Once prerequisites and setup are complete:
 ## 🎬 Demo
 https://github.com/user-attachments/assets/ac6df8f7-830a-4b29-9a20-37a7254a40e3
 
-
-
+---
 ## 🛠️ Troubleshooting
 
 *   **Messages Not Sending:**
