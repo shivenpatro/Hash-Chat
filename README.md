@@ -50,7 +50,7 @@ Follow these steps to get set up with Hash-Chat:
     Currency Symbol: ETH
     Block Explorer URL: https://holesky.etherscan.io
     ```
-    ![image](https://github.com/user-attachments/assets/bdf51dff-f874-45ef-b4b0-3340a84cea23)
+    ![Screenshot 2025-04-14 205914](https://github.com/user-attachments/assets/a6b98785-37cc-4751-9582-e80969c4fd72)
 
 *   Click **"Save"**.
 *   Ensure **Holesky Testnet** is selected as your active network in MetaMask. 🔄
@@ -59,7 +59,7 @@ Follow these steps to get set up with Hash-Chat:
 
 *   You need test ETH to pay for transactions (like sending messages) on the Holesky network.
 *   Visit a Holesky Faucet website 
-     [Holesky Faucet](https://holesky-faucet.pk910.de)
+     [Holesky Faucet](https://cloud.google.com/application/web3/faucet/ethereum/holesky)
 *   Copy your MetaMask wallet address 📋 (Click on your account name in MetaMask to copy).
 *   Paste your address into the faucet website's input field.
 *   Follow the faucet's instructions (e.g., "Mine & Request Tokens", "Send Me ETH").
