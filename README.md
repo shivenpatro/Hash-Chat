@@ -98,9 +98,9 @@ Once prerequisites and setup are complete:
 3.  Messages are encrypted using public key cryptography, ensuring only you and the recipient can read them. 🔐
 
 ---
-## Demo
-[![Watch the video](https://github.com/user-attachments/assets/c74f331b-e09b-4474-88b0-398d2c5def5a)
-](https://vimeo.com/1075385755/012529c7fe)
+## 🎬 Demo
+https://github.com/user-attachments/assets/ac6df8f7-830a-4b29-9a20-37a7254a40e3
+
 
 
 ## 🛠️ Troubleshooting
