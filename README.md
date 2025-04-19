@@ -11,7 +11,7 @@ Hash-Chat is a decentralized chat application (DApp) built on the Ethereum block
 
 ## 🚀 Getting Started with Hash-Chat
 
-Visit the application at:  
+Visit the application at:
 👉 [https://hashchatbymechanoids.netlify.app/](https://hashchatbymechanoids.netlify.app/)
 ---
 
@@ -58,7 +58,7 @@ Follow these steps to get set up with Hash-Chat:
 ### 3. Get Holesky Test ETH (Faucet) 💧
 
 *   You need test ETH to pay for transactions (like sending messages) on the Holesky network.
-*   Visit a Holesky Faucet website 
+*   Visit a Holesky Faucet website
      [Holesky Faucet](https://cloud.google.com/application/web3/faucet/ethereum/holesky)
 *   Copy your MetaMask wallet address 📋 (Click on your account name in MetaMask to copy).
 *   Paste your address into the faucet website's input field.
